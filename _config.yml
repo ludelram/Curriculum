@@ -1,11 +1,13 @@
 title: Curriculum Vitae
 description: Desarrollo Web .Net
 author: Luis Delgado Ramírez
-github: https://github.com/agusmakmun
-about: Desarrollador con 15 años de experiencia, en entorno Web, .Net, integración hardware
+github: https://github.com/ludelram
+about: Ingeniero Técnico de Sistemas. XXX años de experiencia en desarrollo ASP.Net, integración hardware
+ano_inicio: 2000
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/Gender_Neutral_User_icon-icons.com_55902.png
+# avatar.jpg
 
 enableTags: true
 tagarray: []
@@ -14,8 +16,18 @@ collections:
   project:
     output: true
     permalink: /project/:path/
+tech:
+  - name: jekyll
+  - name: bootstrap
+  - name: font-awesome
+  - name: yalm
+  - name: csv
 
 social:
+    - icon: fa-envelope
+      link: mailto:ludelram@gmail.com
+      text: ludelram@gmail.com
+social2:       
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
@@ -32,23 +44,23 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-    - text: About this
-      url: /about/
     - text: Tecnologias
       url: /tecnologias
-    - text: Educación
-      url: /educacion
     - text: Experiencia
       url: /feed.xml
+    - text: Educación
+      url: /educacion
     - text: Proyectos
       url: /projects/    
     - text: Formación
       url: /formacion
+    - text: About this
+      url: /about/
     - text: XML Feed
       url: /feed.xml
 
 url: "https://ludelram.github.io"
-baseurl: "https://ludelram.github.io/"
+baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
