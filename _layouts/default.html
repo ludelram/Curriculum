@@ -111,32 +111,30 @@ layout: compress
     </script>
   </head>
   <body>
-    <div class="container">
-    </br>
+    <div class="container ">    
       <div class="row">
-        <div class="col-sm-3">
-          <div class="sidebar">
+        <div class="sidebar hidden-xs col-sm-3" >
+          
               <div class="avatar">
-                <a href="/"><i class="fa fa-user"></i>
-                  <!-- <img class="profile-avatar img-circle" src="{{ site.avatar_url }}" height="75px" width="75px" /> -->
+                <!-- <a href="/"><i class="fa fa-user"></i> -->
+                  <img class="profile-avatar img-circle" src="{{ site.avatar_url }}" height="75px" width="75px" />
                 </a>
-              </div>
-                
+              </div>                
             <h3 class="author-name">                
-                {{ site.author }}</h3>
+              {{ site.author }}</h3>
+                <div class="social">
+                 <ul>
+                   {% for link in site.social %}
+                     <li><i class="fa {{ link.icon }} fa-fw"></i><a href="{{ link.link }}" target="_blank"> {{ link.text }} </a></li>
+                   {% endfor %}
+                 </ul>
+               </div> 
             {% if site.about %}
               <div class="profile-about">
                 {% assign anios = "now" | date: "%Y" | minus: site.ano_inicio %}
                 {{ site.about | replace: "XXX", anios }}                                
               </div>
             {% endif %}
-             <div class="social">
-              <ul>
-                {% for link in site.social %}
-                  <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i> {{ link.text }} </a></li>
-                {% endfor %}
-              </ul>
-            </div> 
             <!-- <div class="search" id="js-search">
               <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
               <ul class="search__results" id="js-search__results"></ul>
@@ -148,26 +146,52 @@ layout: compress
                 <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
               {% endfor %}
             </ul>
-          </div>
+          
           <!-- end /.fixed-condition -->
         </div>
-      
-        <div class="col-sm-8 col-offset-1 main-layout">
-          {{ content }}
+        
+        <div class="col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-1">
+          <div class="row">
+            <div class="col">
+              <div class="row cabecera">
+                  <div class="col-xs-8">
+                    <h1>{{ site.title }}</h1>                    
+                  </div>
+                  <div class="col-xs-4 visible-xs">
+                    <div class="wrap">
+                      <div class="avatar">
+                        <!-- <a href="/"><i class="fa fa-user"></i> -->
+                          <img class="profile-avatar img-circle" src="{{ site.avatar_url }}" height="35px" width="35px" />
+                        </a>
+                      </div>                
+                      <div class="email"><h6 class="author-name">                
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a href="mailto:{{ site.email }}" target="_blank"> {{ site.author }} </a></h3>                      
+                      </div>                      
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col">{{ content }}</div>
+              </div>          
+              <div class="row pie">
+                <div class="col">
+                <footer>
+                  &copy; {{ site.author }}
+                  {% if site.github %}
+                    - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
+                  {% endif %}
+                  <!-- <div class="btn-github" style="float:right;">
+                    <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+                  </div> -->
+                </footer>
+              </div>
+              </div>              
+            </div>
+          </div>
         </div>
         <!-- end /.col-sm-8 -->
-      </div>
-      <div class="row">
-        <footer>
-          &copy; {{ site.author }}
-          {% if site.github %}
-            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
-          {% endif %}
-          <!-- <div class="btn-github" style="float:right;">
-            <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-          </div> -->
-        </footer>
       </div>
     </div>
     <!-- end /.container -->

@@ -62,10 +62,15 @@ span.tag-cloud {
   margin: 0 2px;
   cursor: pointer;
   font-size: 75%;
-  padding: .2em .6em .3em;
+  padding: .2em .6em;
   font-weight: 700;
   display: inline;
+  white-space: nowrap;
+  border: 2px solid grey;
+  border-radius: 10px;
 }
+
+
 .tag-cloud.active {
   background: #ccc;
 }

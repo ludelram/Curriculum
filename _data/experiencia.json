@@ -1,0 +1,32 @@
+﻿[
+
+    {
+    "Periodo":"2015",
+    "Empresa":"Gestión de Proyectos de Informática y Comunicaciones (Gpic)",
+    "url":"http://gpic.es/portal/",
+    "Descripcion":"Subcontratado por el Ayto. De Sevilla",
+    "Categoria":"Analista Programador"
+    },
+    {
+    "Periodo":"2010-2014",
+    "Empresa":"Ayesa Advanced Technologies (Sadiel)",
+    "url":"https://www.ayesa.com/es",
+    "Descripcion":"",
+    "Categoria":"Analista Programador"
+    },
+    {
+    "Periodo":"2000-2010",
+    "Empresa":"Promainsur SAU",
+    "url":"",
+    "Descripcion":"",
+    "Categoria":"Programador / Analista Programador"
+    }
+    ,
+    {
+    "Periodo":"1999",
+    "Empresa":"CRC SL",
+    "url":"",
+    "Descripcion":"Impartiendo el curso de Instalación y Mantenimiento de Equipos Informáticos. 600 horas",
+    "Categoria":"Profesor"
+    }
+]

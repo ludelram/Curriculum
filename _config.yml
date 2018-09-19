@@ -1,6 +1,7 @@
 title: Curriculum Vitae
 description: Desarrollo Web .Net
 author: Luis Delgado Ramírez
+email: ludelram@gmail.com
 github: https://github.com/ludelram
 about: Ingeniero Técnico de Sistemas. XXX años de experiencia en desarrollo ASP.Net, integración hardware
 ano_inicio: 2000
@@ -16,17 +17,16 @@ collections:
   project:
     output: true
     permalink: /project/:path/
-tech:
-  - name: jekyll
-  - name: bootstrap
-  - name: font-awesome
-  - name: yalm
-  - name: csv
 
 social:
     - icon: fa-envelope
       link: mailto:ludelram@gmail.com
-      text: ludelram@gmail.com
+      text: ludelram [at] gmail.com
+    - icon: fa-car      
+      text: Permiso B, Vehículo propio
+    - icon: fa-map-marker
+      link: https://goo.gl/maps/Fv7xJmdwQVN2
+      text: Sevilla, España
 social2:       
     - icon: fa-facebook
       link: "#"
@@ -44,20 +44,18 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-    - text: Tecnologias
+    - text: Tecnologías
       url: /tecnologias
-    - text: Experiencia
-      url: /feed.xml
-    - text: Educación
+    - text: Estudios
       url: /educacion
+    - text: Empresas
+      url: /feed.xml
     - text: Proyectos
       url: /projects/    
-    - text: Formación
-      url: /formacion
-    - text: About this
-      url: /about/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Cursos
+      url: /Cursos
+    - text: About
+      url: /about/    
 
 url: "https://ludelram.github.io"
 baseurl: ""

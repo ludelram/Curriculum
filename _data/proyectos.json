@@ -1,0 +1,75 @@
+[
+	{
+		"anio": "2018",
+        "duracion": "",
+		"nombre": "Curriculum Vitae",
+		"cliente": "Desarrollo Personal",
+		"desc": "Version Online del Curriculum personal basado en plantilla para el generador de sitios webs estáticos Jekyll",
+		"tags": ["GitHub Pages", "Jekyll", "Liquid", "HTML", "CSS", "VS Code","Font Aweasome", "Responsive", "Boostrap", "jQuery","json"]
+	},
+	{
+		"anio": "2016",
+		"duracion": "",
+		"nombre": "List'Em All.",
+		"cliente": "Desarrollo Personal",
+		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
+		"tags": ["Tizen Studio", "TAU", "indexdb", "HTML", "CSS", "Vanilla Javascript", "Design Patterns"]
+	},
+	{
+		"anio": "2015",
+		"duracion": "(4 Meses)",
+		"nombre": "GEPRES. Sistema Integral de Gestión Presupuestaria",
+		"cliente": "INSTITUTO TECNOLÓGICO DEL AYUNTAMIENTO DE SEVILLA (ITAS)",
+		"desc": "Migración a plataforma web de herramienta de generación de nóminas del funcionariado.",
+		"tags": ["VS 2010", "VB.Net", "Windows Forms", "Bitácora (Arquitectura Corporativa del Ayto.)", "Oracle."]
+	},
+	{
+		"anio": "2014",
+		"duracion": "(2 meses)",
+		"nombre": "Mantenimiento Correctivo, Adaptativo, Evolutivo y Perfectivo de Determinados Subsistemas de Información",
+		"cliente": "CONSEJERÍA DE EDUCACIÓN UNIVERSIDADES Y SOSTENIBILIDAD DEL GOBIERNO DE CANARIAS.",
+		"desc": "Elaboración de consultas estadísticas del curso escolar.",
+		"tags": ["MS SQL Server 2010"]
+	},
+	{
+		"anio": "2012-2013",
+		"duracion": "(10 Meses)",
+		"nombre": "SIGEPER. Sistema de Gestión de Personal y Remuneraciones",
+		"cliente": "GOBIERNO DE CHILE.",
+		"desc": "Migración a entorno web del aplicativo de nóminas del funcionariado",
+		"tags": ["VS 2010", "C#", "WebForms", "DevExpress", "ASP.NET", "MS SQL Server 2010"]
+	},
+	{
+		"anio": "2012",
+		"duracion": "(4 Meses)",
+		"nombre": "Mantenimiento WEB ARCE (Apoyo a las Revistas Científicas Españolas)",
+		"cliente": "FECYT Fundación Española para la Ciencia y la Tecnología.",
+		"desc": "Sistema online para la acreditación de revistas científicas con el sello de calidad otorgado por FECYT.",
+		"tags": ["VS 2005", "ASP.NET", "C#", "MS SQL Server 2008", "Integración de @Firma"]
+	},
+	{
+        "destacado": true,
+        "anio": "2000-2011",
+		"duracion": "(11 años)",
+		"nombre": "Rodas. Net. Sistema de Control de Acceso y Presencia",
+		"cliente": "DIPUTACION, EPSA, OPAEF, DEPORTE ANDALUZ, ABC, CAYMASA, ARZOBISPADO, SADIEL, Agencia IDEA, CATEDRAL DE SEVILLA, CLUB PINEDA, Fundación CEA, CAJASOL.",
+		"desc": "Gestión online del acceso y la presencia de los empleados en los centros de trabajo, ausencias, permisos, calendarios, turnos, flexibilidad horaria, horas sindicales, jornada intensiva, vacaciones, horas extras...",
+		"tags": ["VS","ASP.NET", "WebForms", "Vb.Net", "Oracle 10g.", "PL/SQL", "MySQL", "C", "Jira", "Subversion","XSL/XSLT"],
+	},
+	{
+		"anio": "2005",
+		"duracion": "(10 Meses)",
+		"nombre": "Litigio y Prelitigio",
+		"cliente": "LICO CORPORACION.",
+		"desc": "Gestión de Expedientes de impago en la fase judicial y previa a Juicio.",
+		"tags": ["ASP", "ASP.Net", "SQL Server 2000,"]
+	},
+	{
+		"anio": "2003",
+		"duracion": "(8 Meses)",
+		"nombre": "Sistema de Telecarga de Móviles",
+		"cliente": "MAROC TELECOM.",
+		"desc": "Sistema de venta a distancia de recargas de móviles, mediante terminales TPV de Ingénico e Intelligent Data.",
+		"tags": ["C", "Vbasic 6.0", "SQL Server 2000"]
+	}
+]
