@@ -3,7 +3,8 @@ description: Desarrollo Web .Net
 author: Luis Delgado Ramírez
 email: ludelram@gmail.com
 github: https://github.com/ludelram
-about: Ingeniero Técnico de Sistemas. XXX años de experiencia en desarrollo ASP.Net, integración hardware
+about: Ingeniero Técnico de Sistemas. 
+       XXX años de experiencia en desarrollo Web .Net.
 ano_inicio: 2000
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
@@ -19,11 +20,13 @@ collections:
     permalink: /project/:path/
 
 social:
+    - icon: fa-calendar
+      text: 1974
     - icon: fa-envelope
       link: mailto:ludelram@gmail.com
       text: ludelram [at] gmail.com
     - icon: fa-car      
-      text: Permiso B, Vehículo propio
+      text: Vehículo propio
     - icon: fa-map-marker
       link: https://goo.gl/maps/Fv7xJmdwQVN2
       text: Sevilla, España
