@@ -60,7 +60,7 @@ a:hover {
 .cert i.fa-bookmark{
   position: relative;  
   top: 0.6em;  
-  font-size: 0.8em;  
+  font-size: 0.7em;  
 }
 
 .cert i.fa-certificate{
@@ -83,13 +83,13 @@ a:hover {
 .tabla tr td:first-child{
   border-right: 1px solid grey;
   text-align: right;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   width:15%;
 }
 
 .tabla tr td{
   vertical-align: top;
-  padding-top:15px;
+  padding-top:25px;
 }
 
 .tabla tr:first-child td{
@@ -97,9 +97,13 @@ a:hover {
 }
 
 .wrap{
-  padding-top:2px;
+  padding-top:6px;
   text-align: center;
 }
+.wrap .author-name{
+  margin:0;
+}
+
 h2.sub{
   margin: 0px;
   position: sticky;
@@ -138,11 +142,9 @@ h2.sub::before{
   border-bottom: 2px solid grey;
 }
 
-.pie{
-  padding-top: 19px;
+.pie{  
   position: sticky;
   background-color: white;  
-  padding-left: 25px;
   z-index: 99;
   bottom: 0;
 }
@@ -160,12 +162,10 @@ div.content .highlight {
 	background: #333333;
 }
 footer {
-  border-top: 1px solid #F7F1F1;
+  /* border-top: 1px solid #F7F1F1; */
   width: 100%;
-  height: 10px;
-  margin-top: 10px;
-  margin-bottom: 3em;
-  padding-top: 10px;
+  height: 10px;  
+  margin-bottom: 2em;  
   color: #C2C2C2;
   font-size: 11px;
   bottom: 0;
@@ -264,18 +264,29 @@ img.profile-avatar {
   font-size: 1.5em;
 }
 
-/* Responsive Conditional */
-@media (min-width: 768px) {
-  
+
+@media (max-width: 1200px) {
+  .tabla{
+    margin-left: 0;    
+  }
 }
+
 @media (max-width: 768px) {
   /* div.col-sm-3 {
     margin-top: 30px;
   }  
   */
-  .tabla{
-    margin-left: 0;    
+  .profile-avatar{
+    height: 20px;
+    width: 20px;
   }
+  h1{
+    font-size: 20px;
+  }
+  h2.sub{
+    font-size: 18px;
+    top:54px;
+  }  
   .tabla tr td:first-child { 
     white-space: normal;  
   }

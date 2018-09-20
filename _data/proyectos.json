@@ -13,7 +13,7 @@
 		"nombre": "List'Em All.",
 		"cliente": "Desarrollo Personal",
 		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
-		"tags": ["Tizen Studio", "TAU", "indexdb", "HTML", "CSS", "Vanilla Javascript", "Design Patterns"]
+		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Vanilla Javascript", "Design Patterns"]
 	},
 	{
 		"anio": "2015",
