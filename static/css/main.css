@@ -286,7 +286,7 @@ img.profile-avatar {
     top:54px;
   }  
   .tabla tr td:first-child { 
-    white-space: normal;  
+    white-space: pre-wrap;;  
     word-wrap: break-word;
     word-break: break-word;
   }
