@@ -271,7 +271,7 @@ img.profile-avatar {
   padding: 0;
 }
 .cabecera div{
-  padding: 0;
+  padding-left: 0;
 }
 @media (max-width: 768px) {
   .profile-avatar{
@@ -288,7 +288,7 @@ img.profile-avatar {
   .tabla tr td:first-child { 
     white-space: pre-wrap;;  
     word-wrap: break-word;
-    word-break: break-word;
+   /*  word-break: break-word; */
   }
   .tabla td strong {
     font-size: 16px;

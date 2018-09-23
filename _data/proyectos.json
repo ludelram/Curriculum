@@ -3,7 +3,7 @@
 		"anio": "2018",
         "duracion": "",
 		"nombre": "Curriculum Vitae",
-		"cliente": "Desarrollo Personal",
+		"cliente": "Proyecto Personal",
 		"desc": "Version Online del Curriculum personal basado en plantilla para el generador de sitios webs estáticos Jekyll",
 		"tags": ["GitHub Pages", "Jekyll", "Liquid", "HTML", "CSS", "VS Code","Font Aweasome", "Responsive", "Boostrap", "jQuery","json"]
 	},
@@ -11,7 +11,7 @@
 		"anio": "2016",
 		"duracion": "",
 		"nombre": "List'Em All.",
-		"cliente": "Desarrollo Personal",
+		"cliente": "Proyecto Personal",
 		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
 		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Vanilla Javascript", "Design Patterns"]
 	},

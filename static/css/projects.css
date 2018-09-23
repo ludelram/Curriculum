@@ -83,3 +83,7 @@ a.project-detail:hover {
 a.project-detail:hover h3 {
   color: #62A253;
 }
+
+.not-show {
+  display: none;
+}
