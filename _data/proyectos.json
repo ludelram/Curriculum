@@ -20,8 +20,8 @@
 		"duracion": "(4 Meses)",
 		"nombre": "GEPRES. Sistema Integral de Gestión Presupuestaria",
 		"cliente": "INSTITUTO TECNOLÓGICO DEL AYUNTAMIENTO DE SEVILLA (ITAS)",
-		"desc": "Migración a plataforma web de herramienta de generación de nóminas del funcionariado.",
-		"tags": ["VS 2010", "VB.Net", "Windows Forms", "Bitácora (Arquitectura Corporativa del Ayto.)", "Oracle."]
+		"desc": "Elaboración de los presupuestos municipales del Ayto. de Sevilla. Desarrollado bajo la Arquitectura Corporativa del Ayto. basada en .Net (Bitácora)",
+		"tags": ["VS 2010", "VB.Net", "Windows Forms", "Bitácora", "Oracle."]
 	},
 	{
 		"anio": "2014",
