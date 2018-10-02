@@ -1,8 +1,3 @@
----
-layout: default
-name: C.Vitae
-
----
 
 <h2 class="sub">Proyecto\Curriculum Vitae</h2>  
 
