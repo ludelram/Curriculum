@@ -1,22 +1,15 @@
-[
-	{
-		anio: "2016",
-		titulo: "Curso de Desarrollo Web con ASP.NET MVC 5",
-        organismo: "CampusMVC",
-        url: "https://www.campusmvp.es/catalogo/Product-Desarrollo-Web-con-ASP.NET-MVC-5_92.aspx",
-        doc: "http://www.campusmvp.es/certificados/luis-delgado-ramirez",
-        duracion: "80h.",
-        destacado: true
-	},
+[	
 	{
 		anio: "2011",
 		titulo: "Ingeniero Técnico Informático de Sistemas",
-		organismo: "ETSII. Universidad de Sevilla"
+		organismo: "ETSII. Universidad de Sevilla",
+		cert: "ITIS.jpeg"
 	},
 	{
 		anio: "1993",
 		titulo: "Téc. Especialista en Informática de Gestión (FP2)",
-		organismo: "Instituto Público de F.P. PUNTA DEL VERDE. Sevilla"
+		organismo: "Instituto Público de F.P. PUNTA DEL VERDE. Sevilla",
+		cert: "FPII.jpeg"
 	}
 ]
 

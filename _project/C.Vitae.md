@@ -15,11 +15,11 @@ name: C.Vitae
 
 ### Características
 
-* Uso de Font awesome
-* Responsive Bootstrap Layout
+* Uso de [Font awesome](https://fontawesome.com/)
+* Responsive [Bootstrap](http://getbootstrap.com/) Layout
 * Composición de Sticky headers vía CSS
 * Presentación de datos a partir de archivos .json mediante Liquid ( sistema de templates usado en [jekyll](https://jekyllrb.com/) )
-* Filtrado de Cursos y Proyectos por etiquetas mediante jQuery
+* Filtrado de Cursos y Proyectos por etiquetas mediante [jQuery](https://jquery.com/)
 
 ### Screenshot 1
 
@@ -32,17 +32,15 @@ name: C.Vitae
 
 1. Hacer un Fork del repositorio
 2. Editar la configuración del site en el fichero `_config.yml`
-3. Editar proyectos, cursos, estudios, etiquetas y experiencia en los ficheros `_data/projects.json`, `_data/cursos.json`, `_data/estudios.json`, `_data/etiquetas.json` y `_data/experiencia.json` .
+3. Editar proyectos, cursos, estudios, etiquetas y experiencia en los ficheros `_data/projects.json`, `_data/cursos.json`, `_data/estudios.json`, `_data/etiquetas.json` y `_data/experiencia.json` respectivamente.
 
 
-### Cómo usar la plantilla?
-
-**Añadir un nuevo proyecto**
+### Añadir un post para un proyecto
 
 * Dentro del directorio `_project/`, crear un archivo `nombre-proyecto.md`
-* en el archivo `_data/projects.json` añadir el campo `"url":"project/nombre-proyecto/"`
+* Al archivo `_data/projects.json` añadir el campo `"url":"project/nombre-proyecto/"` en el registro del objeto proyecto correspondiente
 * Utilizar sintaxis markdown para elaborar el contenido.
-* ejemplo:
+* Ejemplo:
 
 ```
 ---

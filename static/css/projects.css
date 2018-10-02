@@ -56,23 +56,22 @@ span.tags:last-child {
 
 /** Project Tag Filters **/
 .tag-group {
-  margin: 0 0 25px 0;
+  margin: 0 0 10px 0;
 }
 span.tag-cloud {
-  margin: 0 2px;
   cursor: pointer;
-  font-size: 75%;
-  padding: .2em .6em;
-  font-weight: 700;
+  font-size: 70%;
+  padding: .4em .6em;  
   display: inline;
-  white-space: nowrap;
-  border: 1px solid grey;
-  border-radius: 10px;
+  white-space: nowrap;  
+  color:#343156;
+  background-color: #e6e5e4;
+  border-radius: 5px;
 }
 
 
 .tag-cloud.active {
-  background: #ccc;
+  background: #f1d1d1;
 }
 .project-item.not-show {
   display: none;

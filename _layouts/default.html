@@ -117,7 +117,7 @@ layout: compress
           
               <div class="avatar">
                 <!-- <a href="/"><i class="fa fa-user"></i> -->
-                  <img class="profile-avatar img-circle" src="{{ site.avatar_url }}" height="75px" width="75px" />
+                  <a href="/"><img class="profile-avatar img-circle" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
                 </a>
               </div>                
             <h3 class="author-name">                
@@ -125,7 +125,11 @@ layout: compress
                 <div class="social">
                  <ul>
                    {% for link in site.social %}
-                     <li><i class="fa {{ link.icon }} fa-fw"></i><a href="{{ link.link }}" target="_blank"> {{ link.text }} </a></li>
+                      {% if link.link %}
+                        <li><i class="fa {{ link.icon }} fa-fw"></i><a href="{{ link.link }}" target="_blank"> {{ link.text }} </a></li>
+                      {% else %}
+                        <li><i class="fa {{ link.icon }} fa-fw"></i> {{ link.text }} </li>
+                      {% endif %}
                    {% endfor %}
                  </ul>
                </div> 
@@ -139,13 +143,24 @@ layout: compress
               <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
               <ul class="search__results" id="js-search__results"></ul>
             </div> -->
-            <hr />
-            <ul class="sidebar-nav">                            
-              <li><a href="/">Home</a></li>
-              {% for i in site.urls %}
-                <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
-              {% endfor %}
-            </ul>
+            <hr />            
+            {% if page.url == "/" %}            
+              <ul class="sidebar-nav">                            
+                <li><a href="/">Inicio</a></li>
+                {% for i in site.urls %}              
+                  <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <ul class="sidebar-nav">                            
+                  
+                  <li><a href="/">Inicio</a></li>                
+                  {% for i in site.project %}              
+                    <li><a class="about" href="{{ i.url }}">{{ i.name }}</a></li>
+                  {% endfor %}
+                  
+                </ul>
+            {% endif %}
           
           <!-- end /.fixed-condition -->
         </div>
@@ -155,7 +170,7 @@ layout: compress
             <div class="col-xs-12">
               <div class="row cabecera">
                   <div class="col-xs-7">
-                    <h1>{{ site.title }}</h1>                    
+                      <a href="/"><h1>{{ site.title }}</h1></a>                   
                   </div>
                   <div class="col-xs-5 visible-xs">
                     <div class="wrap">
@@ -202,6 +217,6 @@ layout: compress
     <script src="/static/js/bootstrap.min.js"></script>
    <!--  <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script> -->
-    <script src="/static/js/projects.js"></script>
+    <script src="/static/js/projects.1.js"></script>
   </body>
 </html>

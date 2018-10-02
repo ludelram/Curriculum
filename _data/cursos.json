@@ -1,0 +1,190 @@
+[
+    {
+        anio: "2018",
+        sitio: "Udemy",
+        cursos: [
+                    {
+                        destacado: true,
+                        anio: "2018",
+                        duracion: "21h 30m",
+                        curso: "Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)",
+                        url: "https://www.udemy.com/vuejs-2-the-complete-guide/",
+                        
+                        tags: ["VS Code","Vue.js", "SPA", "Bootstrap", "HTML", "CSS", "JSON"]
+                    },            
+                    {
+                        destacado: true,
+                        anio: "2018",
+                        duracion: "11h 5m",
+                        curso: "AngularJS - Desde Hola Mundo hasta una Aplicación",
+                        url: "https://www.udemy.com/angularjs-en-espanol/",
+                        cert: "https://www.udemy.com/certificate/UC-BTBFHV8Z/",
+                        tags: ["VS Code", "AngularJS", "SPA", "Bootstrap", "HTML", "CSS", "JSON"]
+                    },            
+                    {
+                        anio: "2018",
+                        duracion: "6h",
+                        curso: "AngularJS Masterclass - Deep Dive & Understand AngularJS",
+                        url: "https://www.udemy.com/angularjs-masterclass/",
+                        cert: "https://www.udemy.com/certificate/UC-GN8GMWE0/",
+                        tags: ["VS Code", "AngularJS", "SPA", "HTML", "CSS", "JSON"]
+                    },            
+                    {
+                        anio: "2018",
+                        duracion: "1h 30m",
+                        curso: "Quickstart AngularJS",
+                        url: "https://www.udemy.com/quickstart-angularjs/",
+                        cert: "https://www.udemy.com/certificate/UC-KBAPDQ7L/",
+                        tags: ["VS Code", "AngularJS","SPA", "HTML", "CSS", "JSON"]
+                    },            
+                    {
+                        anio: "2018",
+                        duracion: "1h",
+                        curso: "ExpressJS Fundamentals",
+                        url: "https://www.udemy.com/expressjs-fundamentals/",
+                        cert: "https://www.udemy.com/certificate/UC-4XMYNMAZ/",
+                        tags: ["Node.js", "Express.js","Javascript", "HTML", "CSS", "JSON"]
+                    }                    
+                ]
+    },
+    {
+		anio: "2017",
+		sitio: "PluralSight",
+		cert: "https://app.pluralsight.com/profile/luis-delgadoramirez",
+		cursos: [
+                    {
+                        anio: "2017",
+                        duracion: "2h 29m",
+                        curso: "Consolidating MVC Views Using Single Page Techniques",
+                        url: "https://app.pluralsight.com/library/courses/mvc-application-techniques/table-of-contents",
+                        tags: ["Visual Studio", "ASP.NET MVC","SPA","MVVM", "HTML", "CSS"]
+                    },
+                    {
+                        anio: "2017",
+                        duracion: "2h 28m",
+                        curso: "The Journey from MVC to Angular",
+                        url: "https://app.pluralsight.com/library/courses/mvc-angular-journey/table-of-contents",
+                        tags: ["Visual Studio", "ASP.NET MVC","AngularJS", "Bootstrap",]
+                    },
+                    {
+                        anio: "2017",
+                        duracion: "5h 19m",
+                        curso: "Building a JavaScript Development Environment",
+                        url: "https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents",
+                        tags: ["npm", "transpilling", "bundling", "testing"]
+                    },
+                    {
+                        anio: "2017",
+                        duracion: "3h 45m",
+                        curso: "Firebase Fundamentals",
+                        url: "https://app.pluralsight.com/library/courses/firebase-fundamentals/table-of-contents",
+                        tags: ["Firebase","NoSQL"]
+                    },
+                    {
+                        anio: "2017",
+                        duracion: "1h 22m",
+                        curso: "Querying the Entity Framework",
+                        url: "https://app.pluralsight.com/library/courses/querying-entity-framework/table-of-contents",
+                        tags: ["Visual Studio","EF","LINQ"]
+                    },
+                    {
+                        anio: "2017",
+                        duracion: "4h 23m",
+                        curso: "Getting Started with Entity Framework 5",
+                        url: "https://app.pluralsight.com/library/courses/entity-framework5-getting-started/table-of-contents",
+                        tags: ["Visual Studio", "EF"]
+                    },
+                ]        		
+	},
+	{
+		anio: "2017",
+		sitio: "Udacity.com",        
+        cursos: [
+                    {
+                        duracion: "15h.",
+                        curso: "Javascript Design Patterns",
+                        url: "https://eu.udacity.com/course/javascript-design-patterns--ud989",
+                        cert: "classroom.udacity.com_courses_ud989.png",
+                        tags: ["javascript","Design Patterns", "SPA", "JSON"]
+                    },
+                    {
+                        duracion: "15h.",
+                        curso: "javascript Promises",
+                        url: "https://eu.udacity.com/course/javascript-promises--ud898",
+                        cert: "classroom.udacity.com_courses_ud898.png",
+                        tags: ["javascript","Promises", "JSON"]
+                    }
+                ]
+    },	
+	{
+        destacado: true,
+		anio: "2016",
+        sitio: "CampusMVP",
+        cert: "http://www.campusmvp.es/certificados/luis-delgado-ramirez",
+		cursos: [
+                    {
+                        duracion: "80h.",
+                        curso: "Curso de Desarrollo Web con ASP.NET MVC 5",
+                        url: "https://www.campusmvp.es/catalogo/Product-Desarrollo-Web-con-ASP.NET-MVC-5_92.aspx",                        
+                        tags: ["Visual Studio","ASP.NET MVC", "EF","LINQ","Bootstrap", "HTML", "CSS", "jQuery", "JSON"]                    
+                    }
+                ],
+	},
+	{
+		anio: "2016",
+		sitio: "CodeSchool.com",		
+		cursos: [
+                    {
+                        duracion: "8h",
+                        curso: "Try jQuery",                                                
+                        tags: ["jQuery"]
+                    },
+                    {	
+                        duracion: "5h",                        
+                        curso: "Shaping up with Angular.js",                        
+                        tags: ["AngularJS"]
+                    }
+                ]
+	},
+	{
+		anio: "2015",
+		sitio: "Microsoft Virtual Academy",
+        cursos: [
+                    {
+                        duracion: "9h.",
+                        url: "https://mva.microsoft.com/es-es/training-courses/introduccin-a-aspnet-mvc-8322",
+                        curso: "Curso Introducción ASP.NET MVC.",
+                        cert: "MVA Introduccion a ASP.NET MVC.png",
+                        tags: ["Visual Studio", "ASP.NET MVC"]
+                    },
+                    {
+                        duracion: "9h.",                        
+                        curso: "Jump Start sobre el desarrollo de aplicaciones web ASP.NET MVC 4.",
+                        cert: "MVA Jump Start sobre el desarrollo de aplicaciones web ASP.NET MVC 4.png",
+                        tags: ["Visual Studio", "ASP.NET MVC"]
+                    }
+                ]
+    },
+	{
+		anio: "2011",
+		sitio: "Curso Presencial",
+		cursos: [
+                    {
+                        duracion: "25h.",
+                        curso: "Análisis y Diseño Orientado a objetos con Enterprise Architect.",                        
+                        cert: "UML1.jpeg",
+                        tags: ["Enterprise Architect", "UML"]
+                    }
+                ]
+	},
+	{
+		anio: "Otros",
+		sitio: "Inglés Nivel Medio/Alto en lectura de manuales técnicos.",		
+		cursos: [
+                    {
+                        curso: "Inglés Nivel Medio/Alto en lectura de manuales técnicos.",                
+                    }
+                ]
+			
+	}
+]

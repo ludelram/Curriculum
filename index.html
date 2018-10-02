@@ -2,135 +2,248 @@
 layout: default
 ---
 
-<div id="home">  
-  <h2 class="sub">Tecnologías</h2>
-  {% if site.enableTags ==  true %}
-	<div id="tag-filter" class="tag-group">
-		<span class="tag-filter tag-cloud all active">All</span>
-		
-    {% assign tagarray = site.tagarray %}
-    {% for project in site.data.proyectos %}
-      {% for tag in project.tags %}
-        {% assign tagarray = tagarray | push: tag %}
+<div id="home2">  
+  <div class="jsTecnologias" >
+    <h2 class="sub">Tecnologías</h2>
+    <div class="anchor">
+      <a name="Tecnologias"> </a>        
+    </div>
+    {% if site.enableTags ==  true %}
+    <div id="tag-filter" >
+
+      <div class="row">
+        {% assign groups = site.data.etiquetas | group_by:"group" %}
+        {% for group in groups %}
+          <div class="col-xs-12 col-sm-3 tag-group"">
+            <h4>{{ group.name }}</h4>
+                {% for tag in group.items %}
+                    <span class="tag-filter tag-cloud" data-tag="{{ tag.tag | downcase }}">{{ tag.tag }}</span>
+                {% endfor %}
+          </div>
+        {% endfor %}  
+        </div>
+
+        
+<!-- 
+
+      {% assign tagarray = site.tagarray %}
+      {% for project in site.data.proyectos %}
+        {% for tag in project.tags %}
+          {% assign tagarray = tagarray | push: tag %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
 
-    {% assign tags = tagarray[1] %}
-    {% for item in tagarray %}
-      {% assign tagDown = item | downcase %}
-      {% assign tagComp = tags | downcase %}
-      {% unless tagComp contains tagDown %}
-        {% capture tags %}{{ tags }}|{{ item }}{% endcapture %}
-      {% endunless %}
-    {% endfor %}
+      {% for sitio in site.data.cursos %}        
+        {% for curso in sitio.cursos %}
+          {% for tag in curso.tags %}
+            {% assign tagarray = tagarray | push: tag %}
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
 
-    {% assign taglist = tags | split: '|' | sort %}
-    {% for tag in taglist %}
-      <span class="tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
-    {% endfor %}
-	</div>
-{% endif %}
-  <br>
-  <h2 class="sub">Estudios</h2>
 
-  <table class="tabla">      
-      {% for est in site.data.estudios %}
-      <tr>          
-          <td>
-            {% if est.destacado  %}
-              <i class="fa fa-bookmark"></i>&nbsp;
-            {% endif %} 
-            <strong>{{ est.anio }}</strong><br>{{ est.duracion}}
-          </td>        
-          <td>
-            <strong>{{ est.titulo }}</strong>
-            {% if est.url  %}
-              &nbsp;<a href="{{ est.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
-            {% endif %} 
-            {% if est.doc  %}
-              <div class="cert">
-                <a href="{{ est.doc }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
-              </div>
-            {% endif %} 
-            <br>            
-            {{ est.organismo }}
-          </td>
-      </tr>
-    {% endfor %}
-  </table>
-  <hr />
-  
-  <h2 class="sub">Empresas</h2>
-  
-  <table class="tabla">
-      <!-- {% for col in site.data.experiencia.first %}
-        <th>
-          {{ col[0] }} 
-        </th>
-      {% endfor %}  
-      {% for emp in site.data.experiencia %}
-        <tr>
-            {% for col in emp %}
-            <td>
-              {{ col[1] }} 
-            </td>
-          {% endfor %} 
-        </tr>
+      {% assign tags = tagarray[0] %}
+      {% for item in tagarray %}
+        {% assign tagDown = item | downcase %}
+        {% assign tagComp = tags | downcase %}
+        {% unless tagComp contains tagDown %}
+          {% capture tags %}{{ tags }}|{{ item }}{% endcapture %}
+        {% endunless %}        
+      {% endfor %}
+      
+      {% assign taglist = tags | split: '|' | sort %}
+      {% for tag in taglist %}
+        <span class="tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
       {% endfor %} -->
+      
+    </div>
+    {% endif %}
+    <hr>
+  </div>
+  <div class="jsEstudios" >
+    <h2 class="sub">Estudios</h2>
+    <div class="anchor">
+      <a name="Estudios"> </a>        
+    </div>
+    <table class="tabla">      
+        {% for est in site.data.estudios %}
+        <tr>          
+            <td>
+              {% if est.destacado  %}
+                <i class="fa fa-bookmark"></i>&nbsp;
+              {% endif %} 
+              <strong>{{ est.anio }}</strong><br>{{ est.duracion}}
+            </td>        
+            <td>
+              {% if est.url  %}
+              &nbsp;<a href="{{ est.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
+              {% endif %} 
+              {% if est.cert  %}
+              <div class="cert">
+                <a href="{{ site.cert_url }}{{ est.cert }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
+              </div>
+              {% endif %} 
+              <strong>{{ est.titulo }}</strong>
+              <br>            
+              {{ est.organismo }}
+            </td>
+        </tr>
+      {% endfor %}
+    </table>
+    <hr />      
+  </div>
+  <div class="jsEmpresas" >
+    <h2 class="sub">Empresas</h2>
+    <div class="anchor">
+      <a name="Empresas"> </a>        
+    </div>
+    <table class="tabla">
+        <!-- {% for col in site.data.experiencia.first %}
+          <th>
+            {{ col[0] }} 
+          </th>
+        {% endfor %}  
+        {% for emp in site.data.experiencia %}
+          <tr>
+              {% for col in emp %}
+              <td>
+                {{ col[1] }} 
+              </td>
+            {% endfor %} 
+          </tr>
+        {% endfor %} -->
 
-      {% for emp in site.data.experiencia %}
-      <tr>          
-          <td><strong>{{ emp.Periodo }}</strong></td>        
-          <td>
-            <strong>{{ emp.Empresa }}             
+        {% for emp in site.data.experiencia %}
+        <tr>          
+            <td><strong>{{ emp.Periodo }}</strong></td>        
+            <td>
               {% if emp.url != ""  %}            
-                &nbsp;<a href="{{ emp.url }}" target="_blank"><i class="fa fa-external-link"></i></a>                        
+              &nbsp;<a href="{{ emp.url }}" target="_blank"><i class="fa fa-external-link"></i></a>                        
               {% endif %}
-            </strong>
-            <br>({{ emp.Categoria }}) 
-            <br>{{ emp.Descripcion }}
-          </td>                          
-      </tr>
-    {% endfor %}
-  </table>
-  <hr>
-  <h2 class="sub">Proyectos</h2>
-  
-   <table class="tabla">      
-      {% for proy in site.data.proyectos %}
-      <tr>          
+              <strong>{{ emp.Empresa }}</strong>
+              <br>({{ emp.Categoria }}) 
+              <br>{{ emp.Descripcion }}
+            </td>                          
+        </tr>
+      {% endfor %}
+    </table>
+    <hr>
+  </div>
+  <div class="jsCursos">
+    <h2 class="sub">Cursos</h2>
+    <div class="anchor">
+        <a name="Cursos"> </a>        
+      </div>
+    <table class="tabla">      
+        {% for curso in site.data.cursos %}
+        <tr class="site-item" >          
+            <td>
+              {% if curso.destacado  %}
+                <i class="fa fa-bookmark"></i>&nbsp;
+              {% endif %} 
+              <strong>{{ curso.anio }}</strong>
+            </td>        
+            <td>
+              {% if curso.url  %}
+              &nbsp;<a href="{{ curso.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
+              {% endif %} 
+              {% if curso.cert  %}
+              <div class="cert">                                
+                <a href="{{ curso.cert }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
+              </div>
+              {% endif %} 
+              <strong>{{ curso.sitio }}</strong>
+            </td>
+        </tr> 
+        {% for curso in curso.cursos %}
+        <tr class="project-item" data-tags='{{ curso.tags | jsonify | downcase }}'>
           <td>
-            {% if proy.destacado  %}
+            {% if curso.destacado  %}
               <i class="fa fa-bookmark"></i>&nbsp;
             {% endif %} 
-            <strong>{{ proy.anio }}</strong><br>{{ proy.duracion}}
-          </td>        
+            {{ curso.duracion}}
+          </td>
           <td>
-            <strong>{{ proy.nombre }}</strong><br>{{ proy.desc}}
-            <br>
-            {{ proy.cliente}}
-            {% if proy.url  %}
-              &nbsp;<a href="{{ proy.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
+            {% if curso.url  %}
+            &nbsp;<a href="{{ curso.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
             {% endif %} 
-            {% if proy.doc  %}
+            {% if curso.cert  %}
+              {% assign proto = curso.cert | slice: 0, 4 | strip %} 
+                           
+              {% if 'http' != proto %}                
               <div class="cert">
-                <a href="{{ proy.doc }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
-              </div>
+                  <a href="{{ site.cert_url }}{{ curso.cert }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
+                </div>
+              {% else %}
+                <div class="cert">
+                  <a href="{{ curso.cert }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
+                </div>
+              {% endif %}
             {% endif %} 
-            <br>            
-            {{ proy.organismo }}
-            {% if proy.tags  %}
+            {{ curso.curso}}
+            <br>                          
+            {% if curso.tags  %}
               <div class="tags">
-                  {% for tag in proy.tags %}
-                    <span class="tag-filter tag-cloud">{{ tag }}</span>
+                  {% for tag in curso.tags %}
+                    <span class="tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
                   {% endfor %}                
               </div>
             {% endif %} 
-          </td>
-      </tr>
-    {% endfor %}
-  </table>
-  <hr />
+          </td> 
+        </tr>
+        {% endfor %}
+            
+        
+      {% endfor %}
+    </table>
+    <hr />
+  </div>
+  <div class="jsProyectos">
+    <h2 class="sub">Proyectos</h2>
+    <div class="anchor">
+        <a name="Proyectos"> </a>        
+      </div>
+    <table class="tabla">      
+        {% for proy in site.data.proyectos %}
+        <tr class="project-item" data-tags='{{ proy.tags | jsonify | downcase }}'>          
+            <td>
+              {% if proy.destacado  %}
+                <i class="fa fa-bookmark"></i>&nbsp;
+              {% endif %} 
+              <strong>{{ proy.anio }}</strong><br>{{ proy.duracion}}
+            </td>        
+            <td>
+              <strong>{{ proy.nombre }}</strong>   
+              {% if proy.url  %}
+                &nbsp;<a href="{{ proy.url }}" class="badge badge-danger">Ver Mas...</i></a>
+              {% endif %}           
+              {% if proy.img %}
+                <div class="imgShoot" style="background-image: url('/static/img/{{proy.img}}');"></div>
+              {% endif %}
+              <br>{{ proy.desc}}
+              <br>
+              {{ proy.cliente}}              
+              {% if proy.doc  %}
+                <div class="cert">
+                  <a href="{{ proy.doc }}" target="_blank" title="certificado"><i class="fa fa-bookmark"></i><i class="fa fa-certificate"></i> </i></a>
+                </div>
+              {% endif %} 
+              <br>            
+              {{ proy.organismo }}
+              {% if proy.tags  %}
+                <div class="tags">
+                    {% for tag in proy.tags %}
+                      <span class="tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+                    {% endfor %}                
+                </div>
+              {% endif %}
+                
+            </td>
+        </tr>
+      {% endfor %}
+    </table>
+    <hr />
+  </div>
   <!-- <ul class="posts">
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>

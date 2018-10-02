@@ -3,17 +3,20 @@
 		"anio": "2018",
         "duracion": "",
 		"nombre": "Curriculum Vitae",
+		"url":"project/C.Vitae/",
+		"img": "Curr.png",
 		"cliente": "Proyecto Personal",
 		"desc": "Version Online del Curriculum personal basado en plantilla para el generador de sitios webs estáticos Jekyll",
-		"tags": ["GitHub Pages", "Jekyll", "Liquid", "HTML", "CSS", "VS Code","Font Aweasome", "Responsive", "Boostrap", "jQuery","json"]
+		"tags": ["GitHub Pages", "Jekyll", "Liquid", "HTML", "CSS", "VS Code","Font Aweasome", "Responsive", "Bootstrap", "jQuery","JSON", "Markdown"]
 	},
 	{
-		"anio": "2016",
+		"anio": "2017",
 		"duracion": "",
 		"nombre": "List'Em All.",
+		"img": "Kill.png",		
 		"cliente": "Proyecto Personal",
 		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
-		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Vanilla Javascript", "Design Patterns"]
+		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Javascript", "Design Patterns"]
 	},
 	{
 		"anio": "2015",
@@ -21,7 +24,7 @@
 		"nombre": "GEPRES. Sistema Integral de Gestión Presupuestaria",
 		"cliente": "INSTITUTO TECNOLÓGICO DEL AYUNTAMIENTO DE SEVILLA (ITAS)",
 		"desc": "Elaboración de los presupuestos municipales del Ayto. de Sevilla. Desarrollado bajo la Arquitectura Corporativa del Ayto. basada en .Net (Bitácora)",
-		"tags": ["VS 2010", "VB.Net", "Windows Forms", "Bitácora", "Oracle."]
+		"tags": ["Visual Studio","VS 2010", "VB.Net", "Windows Forms", "Bitácora", "Oracle", "SQL"]
 	},
 	{
 		"anio": "2014",
@@ -29,7 +32,7 @@
 		"nombre": "Mantenimiento Correctivo, Adaptativo, Evolutivo y Perfectivo de Determinados Subsistemas de Información",
 		"cliente": "CONSEJERÍA DE EDUCACIÓN UNIVERSIDADES Y SOSTENIBILIDAD DEL GOBIERNO DE CANARIAS.",
 		"desc": "Elaboración de consultas estadísticas del curso escolar.",
-		"tags": ["MS SQL Server 2010"]
+		"tags": ["MS SQL Server", "SQL Server 2010", "SQL"]
 	},
 	{
 		"anio": "2012-2013",
@@ -37,24 +40,26 @@
 		"nombre": "SIGEPER. Sistema de Gestión de Personal y Remuneraciones",
 		"cliente": "GOBIERNO DE CHILE.",
 		"desc": "Migración a entorno web del aplicativo de nóminas del funcionariado",
-		"tags": ["VS 2010", "C#", "WebForms", "DevExpress", "ASP.NET", "MS SQL Server 2010"]
+		"tags": ["Visual Studio", "VS 2010", "C#", "WebForms", "DevExpress", "ASP.NET", "MS SQL Server","SQL Server 2010", "SQL", "HTML", "CSS"]
 	},
 	{
 		"anio": "2012",
 		"duracion": "(4 Meses)",
-		"nombre": "Mantenimiento WEB ARCE (Apoyo a las Revistas Científicas Españolas)",
+		"nombre": "Mantenimiento WEB ARCE (Apoyo a las Revistas Científicas Españolas)",		
 		"cliente": "FECYT Fundación Española para la Ciencia y la Tecnología.",
 		"desc": "Sistema online para la acreditación de revistas científicas con el sello de calidad otorgado por FECYT.",
-		"tags": ["VS 2005", "ASP.NET", "C#", "MS SQL Server 2008", "Integración de @Firma"]
+		"tags": ["Visual Studio", "VS 2005", "ASP.NET", "C#", "WebForms", "Web Services", "MS SQL Server", "SQL Server 2008", "SQL", "Integración de @Firma", "HTML", "CSS"]
 	},
 	{
         "destacado": true,
-        "anio": "2000-2011",
+		"anio": "2000-2011",
+		"img": "Presencia.png",
+		"url":"project/Rodas/",
 		"duracion": "(11 años)",
 		"nombre": "Rodas. Net. Sistema de Control de Acceso y Presencia",
 		"cliente": "DIPUTACION, EPSA, OPAEF, DEPORTE ANDALUZ, ABC, CAYMASA, ARZOBISPADO, SADIEL, Agencia IDEA, CATEDRAL DE SEVILLA, CLUB PINEDA, Fundación CEA, CAJASOL.",
 		"desc": "Gestión online del acceso y la presencia de los empleados en los centros de trabajo, ausencias, permisos, calendarios, turnos, flexibilidad horaria, horas sindicales, jornada intensiva, vacaciones, horas extras...",
-		"tags": ["VS","ASP.NET", "WebForms", "Vb.Net", "Oracle 10g.", "PL/SQL", "MySQL", "C", "Jira", "Subversion","XSL/XSLT"],
+		"tags": ["Visual Studio", "VS 2010","ASP.NET", "WebForms", "Vb.Net", "Oracle", "Oracle 10g", "Oracle XE", "PL/SQL", "MySQL", "SQL", "C", "Jira", "Subversion","XSL/XSLT", "HTML", "CSS", "Javascript", "jQuery"]
 	},
 	{
 		"anio": "2005",
@@ -62,7 +67,7 @@
 		"nombre": "Litigio y Prelitigio",
 		"cliente": "LICO CORPORACION.",
 		"desc": "Gestión de Expedientes de impago en la fase judicial y previa a Juicio.",
-		"tags": ["ASP", "ASP.Net", "SQL Server 2000,"]
+		"tags": ["Visual Studio", "ASP", "ASP.Net", "WebForms", "Vb.Net", "MS SQL Server", "SQL Server 2000", "SQL", "HTML", "CSS"]
 	},
 	{
 		"anio": "2003",
@@ -70,6 +75,6 @@
 		"nombre": "Sistema de Telecarga de Móviles",
 		"cliente": "MAROC TELECOM.",
 		"desc": "Sistema de venta a distancia de recargas de móviles, mediante terminales TPV de Ingénico e Intelligent Data.",
-		"tags": ["C", "Vbasic 6.0", "SQL Server 2000"]
+		"tags": ["C", "Vbasic 6.0", "Windows Forms", "MS SQL Server", "SQL Server 2000", "SQL"]
 	}
 ]

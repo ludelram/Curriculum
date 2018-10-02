@@ -1,0 +1,190 @@
+[
+	{
+		"tag": "ASP.NET",
+		"group": ".Net"
+	},
+	{
+		"tag": "ASP.NET MVC",
+		"group": ".Net"
+	},
+	{
+		"tag": "VB.Net",
+		"group": ".Net"
+	},
+	{
+		"tag": "C#",
+		"group": ".Net"
+	},
+	{
+		"tag": "Visual Studio",
+		"group": ".Net"
+	},	
+	{
+		"tag": "VS Code",
+		"group": ".Net"
+	},
+	{
+		"tag": "WebForms",
+		"group": ".Net"
+	},
+	{
+		"tag": "Windows Forms",
+		"group": ".Net"
+	},
+	{
+		"tag": "Web Services",
+		"group": ".Net"
+	},
+	{
+		"tag": "DevExpress",
+		"group": ".Net"
+	},
+	{
+		"tag": "Bitácora",
+		"group": ".Net"
+	},		
+	{
+		"tag": "Oracle",
+		"group": "Bases de Datos"
+	},	
+	{
+		"tag": "MS SQL Server",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "MySQL",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "PL/SQL",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "SQL",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "Firebase",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "NoSQL",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "EF",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "LINQ",
+		"group": "Bases de Datos"
+	},
+	{
+		"tag": "IndexedDB",
+		"group": "Bases de Datos"
+	},		
+	{
+		"tag": "C",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "Javascript",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "jQuery",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "AngularJS",
+		"group": "Desarrollo"
+	},	
+	{
+		"tag": "Vue.js",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "Express.js",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "JSON",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "Liquid",
+		"group": "Desarrollo"
+	},			
+	{
+		"tag": "XSL/XSLT",
+		"group": "Desarrollo"
+	},		
+	{
+		"tag": "Node.js",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "npm",
+		"group": "Desarrollo"
+	},	
+	{
+		"tag": "Tizen Studio",
+		"group": "Desarrollo"
+	},
+	{
+		"tag": "Vbasic 6.0",
+		"group": ".Net"
+	},	
+	{
+		"tag": "Enterprise Architect",
+		"group": "Otros"
+	},
+	{
+		"tag": "GitHub Pages",
+		"group": "Otros"
+	},
+	{
+		"tag": "Jira",
+		"group": "Otros"
+	},
+	{
+		"tag": "Subversion",
+		"group": "Otros"
+	},
+	{
+		"tag": "UML",
+		"group": "Otros"
+	},
+	{
+		"tag": "HTML",
+		"group": "Otros"
+	},
+	{
+		"tag": "CSS",
+		"group": "Otros"
+	},
+	{
+		"tag": "Responsive",
+		"group": "Otros"
+	},
+	{
+		"tag": "Bootstrap",
+		"group": "Otros"
+	},
+	{
+		"tag": "Font Aweasome",
+		"group": "Otros"
+	},
+	{
+		"tag": "SPA",
+		"group": "Otros"
+	},
+	{
+		"tag": "Jekyll",
+		"group": "Otros"
+	},
+	{
+		"tag": "TAU",
+		"group": "Otros"
+	}
+]

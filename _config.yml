@@ -9,6 +9,7 @@ ano_inicio: 2000
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/Gender_Neutral_User_icon-icons.com_55902.png
+cert_url: /static/cert/
 # avatar.jpg
 
 enableTags: true
@@ -17,7 +18,7 @@ tagarray: []
 collections:
   project:
     output: true
-    permalink: /project/:path/
+    
 
 social:
     - icon: fa-calendar
@@ -40,7 +41,7 @@ social2:
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/ludelram"
 
 share:
   twitter_username: agusmakmun6
@@ -48,17 +49,17 @@ share:
 
 urls:
     - text: Tecnologías
-      url: /tecnologias
+      url: "#Tecnologias"
     - text: Estudios
-      url: /educacion
+      url: "#Estudios"
     - text: Empresas
-      url: /feed.xml
-    - text: Proyectos
-      url: /projects/    
+      url: "#Empresas"
     - text: Cursos
-      url: /Cursos
-    - text: About
-      url: /about/    
+      url: "#Cursos"
+    - text: Proyectos
+      url: "#Proyectos"    
+    - text: Acerca de
+      url: "#Acerca"    
 
 url: "https://ludelram.github.io"
 baseurl: ""
