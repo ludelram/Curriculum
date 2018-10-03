@@ -7,8 +7,9 @@ title: List'Em All
 
 <h2 class="sub"><a href="/#Proyectos" title="volver">Proyectos</a>\List'Em All</h2>  
 
-> Aplicación de gestión de listas para el smartwatch Samsung Gear S2.
 ><img src="/static/img/Kill2.png" title="List'Em All" width="100%"/>
+
+> Aplicación de gestión de listas para el smartwatch Samsung Gear S2.
 
 ### Características
 
@@ -17,5 +18,8 @@ title: List'Em All
 * Diseño HTML y CSS
 * Gestión de múltiples listas 
 * Gestión de Items
-* Seguimiento de items completados mediante barra circular de progreso.
+* Seguimiento de items completados mediante barra circular de progreso
+* API [IndexedDb](https://developer.mozilla.org/es/docs/IndexedDB-840092-dup) como origen de datos
+* Desarrollo en Vanilla Javascript
+* Patrones de Diseño: MVC, Repository 
 
