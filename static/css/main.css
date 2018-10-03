@@ -153,7 +153,7 @@ h2.sub::before{
   text-align: left;
   font-size: 1.5em;
   text-align:right;
-  padding-right: 20%;
+  padding-right: 15%;
 }
 
 .cabecera{  
@@ -331,6 +331,9 @@ img.profile-avatar {
   h2.sub{
     font-size: 18px;
     top:54px;
+  }
+  h3{
+    font-size: 18px;
   }  
   .tabla tr td:first-child { 
     white-space: pre-wrap;;  
