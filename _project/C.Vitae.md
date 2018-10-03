@@ -16,10 +16,13 @@ permalink: /project/CVitae/
 ### Características
 
 * Uso de [Font awesome](https://fontawesome.com/)
-* Responsive [Bootstrap](http://getbootstrap.com/) Layout
+* Layout a columnas Responsive [Bootstrap](http://getbootstrap.com/) 
 * Sticky headers vía CSS
 * Presentación de datos a partir de archivos .json mediante Liquid ( sistema de templates usado en [jekyll](https://jekyllrb.com/) )
 * Filtrado de Cursos y Proyectos por etiquetas mediante [jQuery](https://jquery.com/)
+* Enlaces a Certificados y Cursos
+* Proyectos y Cursos Destacados
+* Navegación a Post para ampliar información de proyectos
 
 ### Screenshot 1
 
