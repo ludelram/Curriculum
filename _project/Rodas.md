@@ -8,7 +8,7 @@ destacado: true
 
 <h2 class="sub">Proyecto\Rodas.Net</h2>  
 
-<img src="/static/img/Rodas/rodasLogo.png" title="Logo" width="50%" style="float:right;"/>
+<img src="/static/img/Rodas/RodasLogo.png" title="Logo" width="50%" style="float:right;"/>
 
 Rodas.Net es un sistema integral para la gestión del **Control de Acceso y Presencia**. 
 
