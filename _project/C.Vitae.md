@@ -1,6 +1,6 @@
 ---
 layout: default
-name: C. Vitae (Jekyll)
+name: C. Vitae
 permalink: /project/CVitae/
 ---
 
@@ -16,7 +16,7 @@ permalink: /project/CVitae/
 ### Características
 
 * Uso de [Font awesome](https://fontawesome.com/)
-* Layout a columnas Responsive [Bootstrap](http://getbootstrap.com/) 
+* Layout a dos columnas Responsive [Bootstrap](http://getbootstrap.com/) 
 * Sticky headers vía CSS
 * Presentación de datos a partir de archivos .json mediante Liquid ( sistema de templates usado en [jekyll](https://jekyllrb.com/) )
 * Filtrado de Cursos y Proyectos por etiquetas mediante [jQuery](https://jquery.com/)
