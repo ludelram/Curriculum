@@ -2,6 +2,7 @@
 layout: default
 name: List'Em All
 permalink: /project/ListEmAll/
+title: List'Em All
 ---
 
 <h2 class="sub"><a href="/#Proyectos" title="volver">Proyectos</a>\List'Em All</h2>  
