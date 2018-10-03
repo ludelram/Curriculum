@@ -13,6 +13,9 @@ permalink: /project/CVitae/
 ### Demo
 * [https://ludelram.github.io](https://ludelram.github.io)
 
+### Repositorio
+* [https://github.com/ludelram/ludelram.github.io](https://github.com/ludelram/ludelram.github.io)
+
 ### Características
 
 * Uso de [Font awesome](https://fontawesome.com/)
@@ -33,7 +36,7 @@ permalink: /project/CVitae/
 
 ### Instalación & Configuración
 
-1. Hacer un Fork del repositorio
+1. Hacer un Fork del repositorio [https://github.com/ludelram/ludelram.github.io](https://github.com/ludelram/ludelram.github.io)
 2. Editar la configuración del site en el fichero `_config.yml`
 3. Editar proyectos, cursos, estudios, etiquetas y experiencia en los ficheros `_data/projects.json`, `_data/cursos.json`, `_data/estudios.json`, `_data/etiquetas.json` y `_data/experiencia.json` respectivamente.
 
