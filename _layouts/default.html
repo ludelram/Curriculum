@@ -156,7 +156,7 @@ layout: compress
                   
                   <li><a href="/">Inicio</a></li>                
                   {% for i in site.project %}              
-                    <li><a class="about" href="{{ i.url }}">{{ i.name }}</a></li>
+                    <li>{% if i.destacado %}<i class="fa fa-bookmark"></i> {% endif %} <a class="about" href="{{ i.url }}">{{ i.name }}</a></li>
                   {% endfor %}
                   
                 </ul>
