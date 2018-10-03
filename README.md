@@ -6,7 +6,7 @@ permalink: /project/CVitae/
 
 <h2 class="sub">Proyecto\Curriculum Vitae</h2>  
 
-> Plantilla [jekyll]([https://jekyllrb.com/]) diseñada para la publicación del Curriculum Vitae en el host de [Github Pages](https://pages.github.com/).
+> Plantilla [jekyll](https://jekyllrb.com/) diseñada para alojar el Curriculum Vitae en el hosting de [Github Pages](https://pages.github.com/).
  
 > Ha sido elaborado en base a la plantilla previamente desarrollada por [agusmakmun.](https://github.com/agusmakmun/agusmakmun.github.io)
 

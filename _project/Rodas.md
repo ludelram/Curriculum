@@ -6,7 +6,7 @@ permalink: /project/Rodas/
 destacado: true
 ---
 
-<h2 class="sub">Proyecto\Rodas.Net</h2>  
+<h2 class="sub"><a href="/#Proyectos" title="volver">Proyectos</a>\Rodas.Net</h2>  
 
 <img src="/static/img/Rodas/RodasLogo.png" title="Logo" width="50%" style="float:right;"/>
 
