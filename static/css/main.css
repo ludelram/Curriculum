@@ -32,13 +32,7 @@ h1 {
 h2, h3 {
   margin-bottom: 5px;
 }
-.sidebar-nav a, a:link, a:active {
-  text-decoration: none;
-  color: #666;
-}
-.sidebar-nav a:hover {
-  color: #B3B3B3;  
-}
+
 a, a:link, a:active {
   text-decoration: none;
   color: #0366d6;
@@ -47,6 +41,13 @@ a:hover {
   color: #B3B3B3;  
 }
 
+.sidebar-nav a, a:link, a:active  {
+  text-decoration: none;
+  color: #666;
+}
+.sidebar-nav a:hover {
+  color: #B3B3B3;  
+}
 .table .fa{
   font-size: 1.3em;
 }
@@ -300,7 +301,7 @@ img.profile-avatar {
 
 .badge-danger{
   background-color: red;
-  color:white;
+  color:white !important;
 }
 
 @media (max-width: 1200px) {
