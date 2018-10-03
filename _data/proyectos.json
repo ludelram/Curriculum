@@ -13,6 +13,7 @@
 		"anio": "2017",
 		"duracion": "",
 		"nombre": "List'Em All.",
+		"url":"/project/ListEmAll/",
 		"img": "Kill.png",		
 		"cliente": "Proyecto Personal",
 		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
