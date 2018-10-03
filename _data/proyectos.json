@@ -17,7 +17,7 @@
 		"img": "Kill.png",		
 		"cliente": "Proyecto Personal",
 		"desc": "Gestor de listas para el Smart Watch Samsung Gear S2",
-		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Javascript", "Design Patterns"]
+		"tags": ["Tizen Studio", "TAU", "IndexedDB", "HTML", "CSS", "Javascript", "Design Patterns", "SPA"]
 	},
 	{
 		"anio": "2015",
