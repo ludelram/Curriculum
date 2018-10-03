@@ -31,6 +31,9 @@ social:
     - icon: fa-map-marker
       link: https://goo.gl/maps/Fv7xJmdwQVN2
       text: Sevilla, España
+    - icon: fa-file-pdf-o
+      link: /static/cert/Curriculum Luis Delgado.pdf
+      text: Versión PDF
 social2:       
     - icon: fa-facebook
       link: "#"
@@ -42,7 +45,7 @@ social2:
       link: "#"
     - icon: fa-github
       link: "https://github.com/ludelram"
-
+          
 share:
   twitter_username: agusmakmun6
   fb_appid: 1749788565247320
