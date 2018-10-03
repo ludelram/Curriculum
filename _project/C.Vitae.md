@@ -1,7 +1,7 @@
 ---
 layout: default
-name: C.Vitae
-
+name: C. Vitae (Jekyll)
+permalink: /project/CVitae/
 ---
 
 <h2 class="sub">Proyecto\Curriculum Vitae</h2>  
@@ -17,7 +17,7 @@ name: C.Vitae
 
 * Uso de [Font awesome](https://fontawesome.com/)
 * Responsive [Bootstrap](http://getbootstrap.com/) Layout
-* Composición de Sticky headers vía CSS
+* Sticky headers vía CSS
 * Presentación de datos a partir de archivos .json mediante Liquid ( sistema de templates usado en [jekyll](https://jekyllrb.com/) )
 * Filtrado de Cursos y Proyectos por etiquetas mediante [jQuery](https://jquery.com/)
 
@@ -26,7 +26,7 @@ name: C.Vitae
 ><img src="/static/img/Captura(iPad).png" title="Inicio" width="100%"/>
 
 ### Screenshot 2
-><img src="/static/img/Captura(Galaxy S5).png" title="Baja resolución" width="50%"/>
+><img src="/static/img/Captura(Galaxy S5).png" title="Baja resolución" width="320px"/>
 
 ### Instalación & Configuración
 
@@ -38,16 +38,17 @@ name: C.Vitae
 ### Añadir un post para un proyecto
 
 * Dentro del directorio `_project/`, crear un archivo `nombre-proyecto.md`
-* Al archivo `_data/projects.json` añadir el campo `"url":"project/nombre-proyecto/"` en el registro del objeto proyecto correspondiente
+* Al archivo `_data/projects.json` añadir el campo `"url":"project/nombre-link-proyecto/"` en el registro del objeto proyecto correspondiente
 * Utilizar sintaxis markdown para elaborar el contenido.
 * Ejemplo:
 
 ```
 ---
-layout: default                          # (require) default post layout
-name: "Nombre del Proyecto"              # (require) a string title
+layout: default                          # (require) 
+name: "Nombre del Proyecto"              # (require) 
+permalink: /project/nombre-link-proyecto/      # (require) 
 ---
 
-# El contenido del proyecto con sintaxis markdown aquí...
+# El contenido con sintaxis markdown aquí...
 ```
 

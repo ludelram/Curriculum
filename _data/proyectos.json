@@ -3,7 +3,7 @@
 		"anio": "2018",
         "duracion": "",
 		"nombre": "Curriculum Vitae",
-		"url":"project/C.Vitae/",
+		"url":"project/CVitae/",
 		"img": "Curr.png",
 		"cliente": "Proyecto Personal",
 		"desc": "Version Online del Curriculum personal basado en plantilla para el generador de sitios webs estáticos Jekyll",
