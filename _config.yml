@@ -59,7 +59,7 @@ urls:
     - text: Proyectos
       url: "#Proyectos"    
     - text: Acerca de
-      url: "#Acerca"    
+      url: "/project/CVitae"    
 
 url: "https://ludelram.github.io"
 baseurl: ""
