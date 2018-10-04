@@ -49,7 +49,7 @@
 		"nombre": "Mantenimiento WEB ARCE (Apoyo a las Revistas Científicas Españolas)",		
 		"cliente": "FECYT Fundación Española para la Ciencia y la Tecnología.",
 		"desc": "Sistema online para la acreditación de revistas científicas con el sello de calidad otorgado por FECYT.",
-		"tags": ["Visual Studio", "VS 2005", "ASP.NET", "C#", "WebForms", "Web Services", "MS SQL Server", "SQL Server 2008", "SQL", "Integración de @Firma", "HTML", "CSS"]
+		"tags": ["Visual Studio", "VS 2005", "ASP.NET", "C#", "WebForms", "MS SQL Server", "SQL Server 2008", "SQL", "Integración de @Firma", "HTML", "CSS"]
 	},
 	{
         "destacado": true,
@@ -60,7 +60,7 @@
 		"nombre": "Rodas. Net. Sistema de Control de Acceso y Presencia",
 		"cliente": "DIPUTACION, EPSA, OPAEF, DEPORTE ANDALUZ, ABC, CAYMASA, ARZOBISPADO, SADIEL, Agencia IDEA, CATEDRAL DE SEVILLA, CLUB PINEDA, Fundación CEA, CAJASOL.",
 		"desc": "Gestión online del acceso y la presencia de los empleados en los centros de trabajo, ausencias, permisos, calendarios, turnos, flexibilidad horaria, horas sindicales, jornada intensiva, vacaciones, horas extras...",
-		"tags": ["Visual Studio", "VS 2010","ASP.NET", "WebForms", "Vb.Net", "Oracle", "Oracle 10g", "Oracle XE", "PL/SQL", "MySQL", "SQL", "C", "Jira", "Subversion","XSL/XSLT", "HTML", "CSS", "Javascript", "jQuery"]
+		"tags": ["Visual Studio", "VS 2010","ASP.NET", "WebForms", "Web Services", "Vb.Net", "Oracle", "Oracle 10g", "Oracle XE", "PL/SQL", "MySQL", "SQL", "C", "Jira", "Subversion","XSL/XSLT", "HTML", "CSS", "Javascript", "jQuery"]
 	},
 	{
 		"anio": "2005",
