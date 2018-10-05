@@ -50,9 +50,7 @@ share:
   twitter_username: agusmakmun6
   fb_appid: 1749788565247320
 
-urls:
-    - text: Datos Personales
-      url: "#Datos"
+urls:    
     - text: Tecnologías
       url: "#Tecnologias"
     - text: Estudios
