@@ -1,47 +1,47 @@
 [
 	{
 		"tag": "ASP.NET",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "ASP.NET MVC",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
-		"tag": "VB.Net",
-		"group": ".Net"
+		"tag": "VB.NET",
+		"group": ".NET"
 	},
 	{
 		"tag": "C#",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "Visual Studio",
-		"group": ".Net"
+		"group": ".NET"
 	},	
 	{
 		"tag": "VS Code",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "WebForms",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "Windows Forms",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "Web Services",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "DevExpress",
-		"group": ".Net"
+		"group": ".NET"
 	},
 	{
 		"tag": "Bitácora",
-		"group": ".Net"
+		"group": ".NET"
 	},		
 	{
 		"tag": "Oracle",
@@ -133,7 +133,7 @@
 	},
 	{
 		"tag": "Vbasic 6.0",
-		"group": ".Net"
+		"group": ".NET"
 	},	
 	{
 		"tag": "Enterprise Architect",
