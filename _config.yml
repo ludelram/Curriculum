@@ -45,12 +45,14 @@ social2:
       link: "#"
     - icon: fa-github
       link: "https://github.com/ludelram"
-          
+
 share:
   twitter_username: agusmakmun6
   fb_appid: 1749788565247320
 
 urls:
+    - text: Datos Personales
+      url: "#Datos"
     - text: Tecnologías
       url: "#Tecnologias"
     - text: Estudios

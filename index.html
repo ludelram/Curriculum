@@ -3,6 +3,35 @@ layout: default
 ---
 
 <div id="home2">  
+  <div class="jsDatos visible-xs">
+      <h2 class="sub">Datos Personales</h2>
+      <div class="anchor">
+          <a name="Datos"> </a>        
+        </div>
+      <div class="row">
+        <div class="col-xs-11 col-xs-offset-1">
+          <h3 class="author-name">                
+              {{ site.author }}</h3>
+                <div class="social">
+                 <ul>
+                   {% for link in site.social %}
+                      {% if link.link %}
+                        <li><i class="fa {{ link.icon }} fa-fw"></i><a href="{{ link.link }}" target="_blank"> {{ link.text }} </a></li>
+                      {% else %}
+                        <li><i class="fa {{ link.icon }} fa-fw"></i> {{ link.text }} </li>
+                      {% endif %}
+                   {% endfor %}
+                 </ul>
+               </div> 
+            {% if site.about %}
+              <div class="profile-about">
+                {% assign anios = "now" | date: "%Y" | minus: site.ano_inicio %}
+                {{ site.about | replace: "XXX", anios }}                                
+              </div>
+            {% endif %}
+          </div>
+      </div>
+  </div>
   <div class="jsTecnologias" >
     <h2 class="sub">Tecnologías</h2>
     <div class="anchor">
@@ -14,7 +43,7 @@ layout: default
       <div class="row">
         {% assign groups = site.data.etiquetas | group_by:"group" %}
         {% for group in groups %}
-          <div class="col-xs-12 col-sm-3 tag-group"">
+          <div class="col-xs-11 col-xs-offset-1 col-sm-3 col-sm-offset-0 tag-group"">
             <h4>{{ group.name }}</h4>
                 {% for tag in group.items %}
                     <span class="tag-filter tag-cloud" data-tag="{{ tag.tag | downcase }}">{{ tag.tag }}</span>

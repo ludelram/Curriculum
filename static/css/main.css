@@ -266,7 +266,7 @@ img.profile-avatar {
   padding: 0;
 }
 .social ul li {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 5px;
   /* white-space: nowrap; */
   font-size: 16px;
